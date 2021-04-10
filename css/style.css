@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --orange: #f7931a;
+  --white: #f9f1f0;
+}
+
+body {
+  font-size: 62.5%;
+  /*font-family: "DM Sans", sans-serif;*/
+  background-color: var(--orange);
+}
+
+h1{
+  font-size: 7vw;
+  margin: 1em auto;
+  text-align: center;
+  color: var(--white);
+}
+
+.container{
+  text-align: center;
+}
+
+input{
+  padding: 1em 3em;
+  margin: 1em;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+  h1{
+    font-size: 5vw;
+  }
+}
